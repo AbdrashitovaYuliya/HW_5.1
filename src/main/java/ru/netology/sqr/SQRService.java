@@ -7,10 +7,10 @@ public class SQRService {
         for (int i = 10; i <= 99; i++) {
             if (i * i >= min) {
                 if (i * i <= max) {
-                    count ++;
-                }
+                    count++;
                 }
             }
-        return count;
         }
+        return count;
     }
+}

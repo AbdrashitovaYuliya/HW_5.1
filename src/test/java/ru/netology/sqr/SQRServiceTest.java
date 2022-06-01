@@ -23,6 +23,7 @@ public class SQRServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void shouldCountIfBorders300() {
         SQRService service = new SQRService();
